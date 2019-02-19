@@ -1,0 +1,54 @@
+{
+	"packages":
+	[
+		{
+			"name":"gibbol",
+			"maintainer":"Gibbol",
+			"websiteURL":"https://github.com/gibbol/arduino",
+			"email":"leonardomt@gmail.com",
+			"help":
+			{
+				"online":"https://github.com/gibbol/arduino"
+			},
+			"platforms":
+			[
+				{
+					"name":"Gibbol",
+					"architecture":"avr",
+					"version":"1.0.0",
+					"category":"Contributed",
+					"url":"https://github.com/gibbol/arduino/dist/1.0.0.zip",
+					"archiveFileName":"1.0.0.zip",
+					"checksum":"SHA-256:92d1fa502d80d92581a88cbd6e717b25f7b7e31f7a60698499b38789568d10ea",
+					"size":"2245",
+					"help":
+					{
+						"online":"https://github.com/gibbol/arduino"
+					},
+					"boards":
+					[
+						{
+							"name":"Gibbol"
+						}
+					],
+					"toolsDependencies":
+					[
+						{
+							"packager": "arduino",
+							"name": "avr-gcc",
+							"version": "4.8.1-arduino5"
+						},
+						{
+							"packager": "arduino",
+							"name": "avrdude",
+							"version": "6.0.1-arduino5"
+						}
+					]
+				}
+			],
+			"tools":
+			[
+			]
+		}
+	]
+}
