@@ -27,9 +27,7 @@
 					},
 					"boards":
 					[
-						{
-							"name":"Gibbol"
-						}
+						{"name":"Arduino/Genuino Mega or Mega 2560"}
 					],
 					"toolsDependencies":
 					[
